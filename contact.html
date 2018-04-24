@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title></title>
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
-<body>
 
-        <div>
-                <ul>
-                    <li>Casper Shih</li>
-                    <li>About</li>
-                    <li>Portfolio</li>
-                    <li>Contact</li>
-                </ul>
-        </div>
+<body>
+    <h1>Casper Shih</h1>
+    <h2>Contact</h2>
+    <div class="topnav">
+        <a href="#About">About</a>
+        <a href="#Portfolio">Portfolio</a>
+        <a href="Contact">Contact</a>
+    </div>
 
     <div class="container">
         <form action="action_page.php">
 
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your first name">
-
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name">
+            <label for="name">Your Name</label>
+            <input type="text" id="fname" name="name" placeholder="Your name">
 
             <label for="email">E-mail</label>
             <input type="text" id="email" name="email" placeholder="Your E-mail">
@@ -32,5 +29,8 @@
             <input type="Submit" value="Submit">
         </form>
     </div>
+
+    <footer>Copyright©</footer>
+
 </body>
 </html>
