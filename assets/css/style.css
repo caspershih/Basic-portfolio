@@ -10,7 +10,7 @@ Background {
 }
 
 h1 {
-    text-color: #FFFFFF;
+    color: #FFFFFF;
     background-color: #4AAAA5;
     font: Times New Roman;
     position: absolute
@@ -59,18 +59,10 @@ input[type=submit]{
     height: 960px;
 }
 
-h1 {
-    text-color:#4AAAA5;
-}
-
-p .solid{
-    border-style:solid
-}
-
 #footer {
     font: 9px;
     text-align: center;
-    text-color: #FFFFFF;
+    color: #FFFFFF;
     position: absolute;;
     bottom: 0px;
 }
