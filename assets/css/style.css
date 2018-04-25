@@ -1,29 +1,35 @@
-Background {
-    background-color: #FFFFFF;
+body {
+    background-color: #ededed;
 }
 
+/* This section is nav bar for all pages */
+
 .topnav {
-    background-color: #ffffff
+    background-color: #FFFFFF;
+    font: 12px;
+    position: top;
+    text-align: right;
 }
-.topnav a:hover {
-    float: top;
-}
+
 
 h1 {
     color: #FFFFFF;
     background-color: #4AAAA5;
-    font: Times New Roman;
-    position: absolute
-    
+    font: Times;
+    margin: 5px, 5px, 5px, 5px;
 }
 
 h2 {
-    text-color: #4AAAA5;
+    text-decoration-color: #4AAAA5;
+    border-bottom: #666666;
+    font: Times;
 }
 
 h3 {
-    text-color: #4AAAA5;
+    
 }
+
+/* This is for contact page */
 
 input[type=text], select, textarea {
     width: 100%;
@@ -45,24 +51,52 @@ input[type=submit]{
     cursor: pointer;
 }
 
-.topnav {
+/* This section is for container */
+
+.container1 {
+    background-color: #FFF;
+    padding-bottom: 20px;
+    height: 450px;
+    margin-top: 100px;
+    margin-right:300px;
+    margin-bottom: 100px;
+    margin-left:300px;
+    border-style: solid;
+    border: 5px;
+    border-color: #111111;
+}
+
+.container2 {
     background-color: #FFFFFF;
-    font: 9px;
-    position: absolute;
-    top: 0px;
+    margin: 200px, 200px, 200px, 200px;
 }
 
-.container {
-    border-radius: 5px;
-    background-color: #aaa;
-    padding: 20px;
-    height: 960px;
+
+
+img {
+    float: left;
 }
 
-#footer {
+p {
+    text-indent: 30px;
+    margin-left: 30px;
+}
+
+/* This section is for portofio page*/
+
+.container3 {
+
+}
+
+
+/* This section is for footer */
+
+.footer {
     font: 9px;
     text-align: center;
-    color: #FFFFFF;
-    position: absolute;;
-    bottom: 0px;
+    position: bottom;
+    background-color: #666666;
+    padding-top: 30px;
+    border: 5px;
+    border-color: #4AAAA5;
 }
