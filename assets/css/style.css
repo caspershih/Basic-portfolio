@@ -4,12 +4,18 @@ body {
 
 /* This section is nav bar for all pages */
 
-.topnav {
-    background-color: #FFFFFF;
-    font: 12px;
-    position: top;
-    text-align: right; 
+ul {
+    margin: 0;
+    padding: 0;
 }
+
+li{
+    float: left;
+    border-right: 1px;
+}
+
+
+/* All headers */
 
 h1 {
     color: #FFFFFF;
@@ -74,11 +80,12 @@ input[type=submit]{
 
 img {
     float: left;
+    margin-right: 20px;
 }
 
 p {
     text-indent: 30px;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 .container2 {
