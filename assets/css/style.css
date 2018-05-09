@@ -4,16 +4,9 @@ body {
 
 /* This section is nav bar for all pages */
 
-ul {
-    margin: 0;
-    padding: 0;
+#topnav {
+    display: block;
 }
-
-li{
-    float: left;
-    border-right: 1px;
-}
-
 
 /* All headers */
 
@@ -23,6 +16,7 @@ h1 {
     font: Times;
     margin: 5px, 5px, 5px, 5px;
     border-bottom: #111111;
+    width: 25%;
 }
 
 h2 {
@@ -76,6 +70,7 @@ input[type=submit]{
     margin-right:300px;
     margin-bottom: 50px;
     margin-left:250px;
+    border-bottom: solid, #111111, 2px; 
 }
 
 img {
