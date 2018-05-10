@@ -4,8 +4,22 @@ body {
 
 /* This section is nav bar for all pages */
 
-#topnav {
-    display: block;
+.topnav {
+    background-color: #FFF;
+    overflow: hidden;
+}
+
+.nameHeader {
+    margin: 20px;
+    font: 32px, #FFF;
+    background-color: #4AAAA5;
+    float: left;
+}
+
+#navItems {
+    font: 30px;
+    float: right;
+    border-right: solid, 2px, #ccc; 
 }
 
 /* All headers */
@@ -70,7 +84,6 @@ input[type=submit]{
     margin-right:300px;
     margin-bottom: 50px;
     margin-left:250px;
-    border-bottom: solid, #111111, 2px; 
 }
 
 img {
