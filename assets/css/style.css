@@ -7,19 +7,21 @@ body {
 .topnav {
     background-color: #FFF;
     overflow: hidden;
+    height: 56px;
 }
 
-.nameHeader {
-    margin: 20px;
-    font: 32px, #FFF;
+#headerName {
+    font-size: 48px;
+    color: #FFF;
     background-color: #4AAAA5;
     float: left;
 }
 
 #navItems {
-    font: 30px;
+    font-size: 28px;
+    color: #ccc;
     float: right;
-    border-right: solid, 2px, #ccc; 
+    border-right: solid, 2px, #ccc;    
 }
 
 /* All headers */
