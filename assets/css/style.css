@@ -5,7 +5,7 @@ body {
 /* This section is nav bar for all pages */
 
 .topnav {
-    background-color: #FFF;
+    background-color: rgb(65, 95, 179);
     overflow: hidden;
     height: 56px;
 }
@@ -13,47 +13,30 @@ body {
 #headerName {
     font-size: 48px;
     color: #FFF;
-    background-color: #4AAAA5;
+    background-color: rgb(65, 95, 179);
     float: left;
+    margin-left: 15px;
 }
 
-#navItems {
+.navItems {
     font-size: 28px;
     color: #ccc;
     float: right;
-    border-right: solid, 2px, #ccc;    
+    margin-right: 30px;
+    margin-top: 10px;
 }
 
 /* All headers */
 
 h1 {
     color: #FFFFFF;
-    background-color: #4AAAA5;
+    background-color: rgb(65, 95, 179);
     font: Times;
     margin: 5px, 5px, 5px, 5px;
-    border-bottom: #111111;
     width: 25%;
 }
 
-h2 {
-    font-size: 32px;
-    border-bottom: 3px solid;
-    border-color: #ccc;
-}
-
-h3 {
-    font-size: 32px;
-    border-bottom: 3px solid;
-    border-color: #ccc;
-}
-
-h4 {
-    font-size: 32px;
-    border-bottom: 3px solid;
-    border-color: #ccc;
-}
-
-/* This is for contact page */
+/* contact page */
 
 input[type=text], select, textarea {
     width: 100%;
@@ -67,7 +50,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit]{
-    background-color: #4AAAA5;
+    background-color: rgb(65, 95, 179);
     color: #111111;
     padding: 12px;
     border: none;
@@ -96,6 +79,7 @@ img {
 p {
     text-indent: 30px;
     margin-left: 50px;
+    margin-right: 50px;
 }
 
 .container2 {
@@ -132,7 +116,6 @@ p {
     font: 6px;
     text-align: center;
     position: bottom;
-    background-color: #666666;
-    padding-top: 30px;
-    border-top:3px #4AAAA5;  
+    background-color: rgb(65, 95, 179);
+    padding-top: 30px; 
 }
