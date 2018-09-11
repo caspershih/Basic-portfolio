@@ -2,10 +2,14 @@ body {
     background-color: #ededed;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* This section is nav bar for all pages */
 
 .topnav {
-    background-color: rgb(65, 95, 179);
+    background-color: #111111;
     overflow: hidden;
     height: 56px;
 }
@@ -13,7 +17,6 @@ body {
 #headerName {
     font-size: 48px;
     color: #FFF;
-    background-color: rgb(65, 95, 179);
     float: left;
     margin-left: 15px;
 }
@@ -29,11 +32,10 @@ body {
 /* All headers */
 
 h1 {
-    color: #FFFFFF;
-    background-color: rgb(65, 95, 179);
+    color: #111111;
     font: Times;
     margin: 5px, 5px, 5px, 5px;
-    width: 25%;
+    
 }
 
 /* contact page */
@@ -62,17 +64,16 @@ input[type=submit]{
 
 .container1 {
     background-color: #FFF;
-    width: 960px;
+    width: 100%;
     padding: 15px;
-    height: 450px;
-    margin-top: 100px;
+    height: 900px;
+    margin-top: 50px;
     margin-right:150px;
     margin-bottom: 50px;
     margin-left:150px;
 }
 
 img {
-    float: left;
     margin-right: 20px;
 }
 
@@ -82,40 +83,12 @@ p {
     margin-right: 50px;
 }
 
-.container2 {
-    background-color: #FFFFFF;
-    width: 900px;
-    padding: 15px;
-    height: 450px;
-    margin-top: 100px;
-    margin-right:300px;
-    margin-bottom: 50px;
-    margin-left:250px;
-}
-
-/* This section is for portofio page*/
-
-.container3 {
-    background-color: #FFF;
-    width: 900px;
-    padding: 15px;
-    height: 450px;
-    margin-top: 100px;
-    margin-right:300px;
-    margin-bottom: 50px;
-    margin-left:250px;
-}
-
-.container4 {
-    image-orientation: center;
-}
-
 /* This section is for footer */
 
 .footer {
     font: 6px;
     text-align: center;
     position: bottom;
-    background-color: rgb(65, 95, 179);
+    background-color: #111111;
     padding-top: 30px; 
 }
