@@ -36,7 +36,6 @@ h1 {
     color: #111111;
     font: Times;
     margin: 5px, 5px, 5px, 5px;
-    
 }
 
 /* contact page */
@@ -83,7 +82,6 @@ input[type=submit]{
 }
 
 /* This section is for footer */
-
 .footer {
     font: 6px;
     text-align: center;
