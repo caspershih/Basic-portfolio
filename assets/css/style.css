@@ -30,7 +30,7 @@ a {
     margin-top: 10px;
 }
 
-/* All headers */
+/* headers */
 
 h1 {
     color: #111111;
@@ -65,21 +65,21 @@ input[type=submit]{
 
 .container1 {
     background-color: #FFF;
-    position: center;
     text-align: center;
     width: 750px;
     padding: 20px;
     height: 900px;
-    margin-top: 25px;
-    margin-right:150px;
-    margin-bottom: 25px;
-    margin-left:150px;
+    
 }
 
-p {
-    text-indent: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
+.container2 {
+    background-color: #FFF;
+    margin-top: 50px;
+    width: 750px;
+    padding: 20px;
+    height: 900px;
+    margin-top: 25px;
+
 }
 
 /* This section is for footer */
@@ -87,7 +87,8 @@ p {
 .footer {
     font: 6px;
     text-align: center;
-    position: bottom;
+    position: fixed;
+    bottom: 0;
     background-color: #111111;
-    padding-top: 30px; 
+    width: 100%;
 }
