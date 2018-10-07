@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/caspershih/Basic-portfolio/issues"
   },
-  "homepage": "https://github.com/caspershih/Basic-portfolio#readme"
+  "homepage": "https://github.com/caspershih/Basic-portfolio#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "nodemailer": "^4.6.8",
+    "nodemon": "^1.18.4"
+  }
 }
