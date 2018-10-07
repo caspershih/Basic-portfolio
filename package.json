@@ -1,0 +1,19 @@
+{
+  "name": "basic-portfolio",
+  "version": "1.0.0",
+  "description": "This repo contains my first project at UCI Coding Bootcamp. I intend to use this website to contain all the projects I do in class and outside of class.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caspershih/Basic-portfolio.git"
+  },
+  "author": "Casper Shih",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caspershih/Basic-portfolio/issues"
+  },
+  "homepage": "https://github.com/caspershih/Basic-portfolio#readme"
+}
